@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'database_connection' => env('WINK_DB_CONNECTION', 'wink'),
+    'database_connection' => env('BLOG_DB_CONNECTION', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -26,9 +26,9 @@ return [
     |
     */
 
-    'storage_disk' => env('WINK_STORAGE_DISK', 'local'),
+    'storage_disk' => env('BLOG_STORAGE_DISK', 'local'),
 
-    'storage_path' => env('WINK_STORAGE_PATH', 'public/wink/images'),
+    'storage_path' => env('BLOG_STORAGE_PATH', 'public/cierra-blog/images'),
 
     /*
     |--------------------------------------------------------------------------
@@ -40,5 +40,5 @@ return [
     |
     */
 
-    'path' => env('WINK_PATH', 'wink'),
+    'path' => env('BLOG_ADMIN_PATH', 'blog-admin'),
 ];
